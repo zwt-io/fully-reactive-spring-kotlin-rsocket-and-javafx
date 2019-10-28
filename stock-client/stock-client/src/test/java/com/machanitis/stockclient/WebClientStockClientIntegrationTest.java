@@ -11,7 +11,7 @@ class WebClientStockClientIntegrationTest {
 
     @Test
     void shouldWork() {
-        WebClientStockClient webClientStockClient = new WebClientStockClient(webClient);
+        StockClient webClientStockClient = new WebClientStockClient(webClient);
         String symbol = "Wing";
         Flux<StockPrice> prices = webClientStockClient.pricesFor(symbol);
 

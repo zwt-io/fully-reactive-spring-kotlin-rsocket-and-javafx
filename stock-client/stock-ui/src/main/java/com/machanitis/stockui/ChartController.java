@@ -1,5 +1,6 @@
 package com.machanitis.stockui;
 
+import com.machanitis.stockclient.StockClient;
 import com.machanitis.stockclient.StockPrice;
 import com.machanitis.stockclient.WebClientStockClient;
 import javafx.application.Platform;
@@ -18,9 +19,9 @@ public class ChartController implements Consumer<StockPrice> {
     @FXML
     public LineChart<String, Double> chart;
     private ObservableList<XYChart.Data<String, Double>> seriesData = FXCollections.observableArrayList();
-    private WebClientStockClient stockClient;
+    private StockClient stockClient;
 
-    public ChartController(WebClientStockClient stockClient) {
+    public ChartController(StockClient stockClient) {
         this.stockClient = stockClient;
     }
 

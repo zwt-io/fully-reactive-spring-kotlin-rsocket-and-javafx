@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="640ef5be-3caa-4f1c-8443-877d3a157d20" name="Default Changelist" comment="" />
+    <list default="true" id="640ef5be-3caa-4f1c-8443-877d3a157d20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../stock-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stock-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock-service/src/main/java/com/mechaitis/stockservice/ServiceApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../stock-service/src/main/java/com/mechaitis/stockservice/ServiceApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stock-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../stock-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SWaWgGmhdh6bFKA8MX1D2tW3x4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -196,10 +201,22 @@
       <workItem from="1571681839880" duration="7509000" />
       <workItem from="1572202434707" duration="743000" />
       <workItem from="1572283001428" duration="1751000" />
+      <workItem from="1572285351412" duration="725000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
